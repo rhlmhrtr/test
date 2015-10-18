@@ -20,6 +20,11 @@ public class Frequency
 	
    public static int[] frequencyOfElements(int[] a)
    {
+     if(a.length==0){
+     int frequency[]={};
+      return frequency;
+     }
+   
 	   int tmp[][]=new int[a.length][2];
 	   int frequency[]=new int[a.length];
 	   
